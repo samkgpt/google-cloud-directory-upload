@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/google-cloud-directory-upload) [![Support Node of LTS](https://img.shields.io/badge/node-latest-brightgreen.svg)](https://nodejs.org/) [![dependencies Status](https://status.david-dm.org/gh/request/request.svg)](https://david-dm.org/request/request)
 
-To upolad files and folder from a directory to google cloud bucket
+To upload files and folder from a local directory to google cloud bucket.
 
 ## Installation
 
@@ -16,7 +16,7 @@ $ npm install google-cloud-directory-upload
 var uploadDirectory = require("google-cloud-directory-upload");
 ```
 
-## Google cloud directory upload
+## Google cloud bucket directory upload Example
 
 ```javascript
 // To upolad files and folder from a directory to google cloud bucket
@@ -24,14 +24,14 @@ const options = {
   bucketName: "bucketName", // Google Cloud bucket name
   keyFilename: "../../keys.json", // Bucket configuration key file path
   directoryPath: "../../tests/reports/mochareports", // Directory to upload
-  bucketPath: "report", // Unique name for bucket folder to upolad files
+  bucketPath: "report", // Unique name for bucket folder to upload files
 };
 
 (async () => {
   console.log(await uploadDirectory(options)); // returns <response_data>
 })();
 
-// responce
+// response
 {
   status: 200,
   files: '7 files uploaded successfully',
