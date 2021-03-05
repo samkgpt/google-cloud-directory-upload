@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/google-cloud-directory-upload) [![Support Node of LTS](https://img.shields.io/badge/node-latest-brightgreen.svg)](https://nodejs.org/) [![dependencies Status](https://status.david-dm.org/gh/request/request.svg)](https://david-dm.org/request/request)
 
-To upload files and folder from a local directory to google cloud bucket.
+To upload files and folder from a directory to google cloud bucket.
 
 ## Installation
 
@@ -37,19 +37,19 @@ const options = {
   status: 200,
   files: '7 files uploaded successfully',
   fileList: [
-    'D:/Project/tests/reports/mochareports/assets/app.css',
-    'D:/Project/tests/reports/mochareports/assets/app.css.map',
-    'D:/Project/tests/reports/mochareports/assets/app.js',
-    'D:/Project/tests/reports/mochareports/assets/app.js.LICENSE.txt',
-    'D:/Project/tests/reports/mochareports/assets/app.js.map',
-    'D:/Project/tests/reports/mochareports/assets/MaterialIcons-Regular.woff',
-    'D:/Project/tests/reports/mochareports/assets/MaterialIcons-Regular.woff2',
+    '/tests/reports/mochareports/assets/app.css',
+    '/tests/reports/mochareports/assets/app.css.map',
+    '/tests/reports/mochareports/assets/app.js',
+    '/tests/reports/mochareports/assets/app.js.LICENSE.txt',
+    '/tests/reports/mochareports/assets/app.js.map',
+    '/tests/reports/mochareports/assets/MaterialIcons-Regular.woff',
+    '/tests/reports/mochareports/assets/MaterialIcons-Regular.woff2',
   ],
   bucket_url: 'https://storage.cloud.google.com/{bucketName}/{bucketPath}'
 }
 ```
 
-For more google cloud storage options flow [Storage Cloud Google][google-storage].
+For more google cloud storage options follow [Storage Cloud Google][google-storage].
 
 ## License
 
