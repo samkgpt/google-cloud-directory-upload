@@ -19,7 +19,7 @@ var uploadDirectory = require("google-cloud-directory-upload");
 ## Upload Directory To Google Cloud Bucket Example
 
 ```javascript
-// To upolad files and folder from a directory to google cloud bucket
+// options
 const options = {
   bucketName: "bucketName", // Google Cloud bucket name
   keyFilename: "../../keys.json", // Bucket configuration key file path
