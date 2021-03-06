@@ -49,7 +49,7 @@ const options = {
 }
 ```
 
-For more google cloud storage options follow [Storage Cloud Google][google-storage].
+For more google cloud storage options follow [Google Cloud Storage][google-storage].
 
 ## License
 
