@@ -18,14 +18,13 @@
   "homepage": "https://github.com/samkgpt/google-cloud-directory-upload#readme",
   "dependencies": {
     "@google-cloud/storage": "^5.8.0",
-    "path": "^0.12.7",
-    "glob": "^7.1.6"
+    "path": "^0.12.7"
   },
   "keywords": [
     "google cloud storage",
     "google cloud directory upload",
-    "files and folder upload",
-    "folder to bucket",
-    "directory upolad to cloud bucket"
+    "directory upload to google bucket",
+    "files and folder upload to google bucket",
+    "directory upolad to google cloud storage"
   ]
 }

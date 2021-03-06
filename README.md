@@ -24,7 +24,7 @@ const options = {
   bucketName: "bucketName", // Google Cloud bucket name
   keyFilename: "../../keys.json", // Bucket configuration key file path
   directoryPath: "../../tests/reports/mochareports", // Directory to upload
-  bucketPath: "report", // Unique name for bucket folder to upload files
+  bucketPath: "report", // optional, Unique bucket folder name
   metaData: { // optional
     predefinedAcl: "publicRead",
   },
