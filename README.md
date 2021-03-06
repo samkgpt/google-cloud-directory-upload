@@ -48,7 +48,7 @@ const options = {
     '/tests/reports/mochareports/assets/MaterialIcons-Regular.woff',
     '/tests/reports/mochareports/assets/MaterialIcons-Regular.woff2',
   ],
-  bucket_url: 'https://storage.cloud.google.com/{bucketName}/{bucketPath}'
+  bucketUrl: 'https://storage.cloud.google.com/{bucketName}/{bucketPath}'
 }
 ```
 
