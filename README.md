@@ -26,7 +26,7 @@ const options = {
   directoryPath: "../../tests/reports/mochareports", // Directory to upload
   bucketPath: "report", // Unique name for bucket folder to upload files
 };
-
+ 
 // request
 (async () => {
   console.log(await uploadDirectory(options)); // returns <response_data>
