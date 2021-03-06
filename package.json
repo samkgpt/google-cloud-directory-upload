@@ -1,6 +1,6 @@
 {
   "name": "google-cloud-directory-upload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "To upload files and folder from a local directory to google cloud storage bucket.",
   "main": "lib/index.js",
   "scripts": {

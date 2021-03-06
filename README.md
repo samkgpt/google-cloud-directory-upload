@@ -25,8 +25,11 @@ const options = {
   keyFilename: "../../keys.json", // Bucket configuration key file path
   directoryPath: "../../tests/reports/mochareports", // Directory to upload
   bucketPath: "report", // Unique name for bucket folder to upload files
+  metaData: { // optional
+    predefinedAcl: "publicRead",
+  },
 };
- 
+
 // request
 (async () => {
   console.log(await uploadDirectory(options)); // returns <response_data>
