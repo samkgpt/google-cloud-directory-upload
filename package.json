@@ -1,30 +1,30 @@
 {
-  "name": "google-cloud-directory-upload",
-  "version": "0.0.2",
-  "description": "To upload files and folder from a local directory to google cloud storage bucket.",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/samkgpt/google-cloud-directory-upload"
-  },
-  "author": "S.Gupta",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/samkgpt/google-cloud-directory-upload/issues"
-  },
-  "homepage": "https://github.com/samkgpt/google-cloud-directory-upload#readme",
-  "dependencies": {
-    "@google-cloud/storage": "^5.8.0",
-    "path": "^0.12.7"
-  },
-  "keywords": [
-    "google cloud storage",
-    "google cloud directory upload",
-    "directory upload to google bucket",
-    "files and folder upload to google bucket",
-    "directory upolad to google cloud storage"
-  ]
+    "name": "google-cloud-directory-upload",
+    "version": "0.0.3",
+    "description": "To upload files and folder from a local directory to google cloud storage bucket.",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/samkgpt/google-cloud-directory-upload"
+    },
+    "author": "S.Gupta",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/samkgpt/google-cloud-directory-upload/issues"
+    },
+    "homepage": "https://github.com/samkgpt/google-cloud-directory-upload#readme",
+    "dependencies": {
+        "@google-cloud/storage": "^5.8.0",
+        "path": "^0.12.7"
+    },
+    "keywords": [
+        "google cloud storage",
+        "google cloud directory upload",
+        "directory upload to google bucket",
+        "files and folder upload to google bucket",
+        "directory upolad to google cloud storage"
+    ]
 }
