@@ -1,6 +1,6 @@
 ## Upload Directory To Google Cloud Bucket
 
-![npm](https://img.shields.io/npm/v/google-cloud-directory-upload) [![Support Node of LTS](https://img.shields.io/badge/node-latest-brightgreen.svg)](https://nodejs.org/) [![dependencies Status](https://status.david-dm.org/gh/request/request.svg)](https://david-dm.org/request/request)
+![npm](https://img.shields.io/npm/v/google-cloud-directory-upload) [![Support Node of LTS](https://img.shields.io/badge/node-latest-brightgreen.svg)](https://nodejs.org/)
 
 To upload files and folder from a directory to google cloud bucket.
 
