@@ -1,6 +1,6 @@
 {
     "name": "google-cloud-directory-upload",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "To upload files and folder from a local directory to google cloud storage bucket.",
     "main": "lib/index.js",
     "scripts": {
@@ -17,9 +17,9 @@
     },
     "homepage": "https://github.com/samkgpt/google-cloud-directory-upload#readme",
     "dependencies": {
-        "@google-cloud/storage": "^5.8.0",
+        "@google-cloud/storage": "^5.16.1",
         "path": "^0.12.7",
-        "glob": "^7.1.6"
+        "glob": "^7.2.0"
     },
     "keywords": [
         "google cloud storage",
